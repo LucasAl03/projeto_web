@@ -28,3 +28,15 @@ textarea{
     padding: 10px;
     border-radius: 5px;
 }
+
+/*para chamar pseudo classes*/
+
+input::placeholder{
+    color: blue;
+    font-size: 1.2em;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
