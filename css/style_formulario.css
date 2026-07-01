@@ -10,6 +10,8 @@ label{
     margin: 10px;
 }
 
+
+
 select{
     height: 60px;
 }
@@ -39,4 +41,26 @@ input::placeholder{
 input[type="radio"], input[type="checkbox"]{
     width: 30px;
     height: 30px;
+}
+
+#div-forms{
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+#div-btns{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
 }
